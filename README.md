@@ -11,3 +11,7 @@ Here is an example of a grid_distance() nested dictionary that will be analyzed 
 #### Analysis
 The max value pair of {distance:number_of_appearances} per datasetkey is selected and a percentage is calculated to see how big a share this distance has of the dataset.  
 
+Here is an analysis example:
+> Total combinations for e6fab7b3-c733-40b9-8df3-2a03e49532c1 within grid-limit is: 9671 and original dataset length is: 4236
+Number of occurrences = 1450 for this distance 0.000003 
+pct = 34.23
