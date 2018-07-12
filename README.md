@@ -23,4 +23,4 @@ Another example is this:
 Number of occurrences = 4484 for this distance 0.1000  
 pct = 62.49
 
-The distance here is significant (0.1) and occurs in 62% of the entire dataset whciih makes it a candidate for gridded data!
+The distance here is significant (0.1) and it occurs in 62% of the entire dataset which makes it a candidate for gridded data!
