@@ -15,3 +15,12 @@ Here is an analysis example:
 > Total combinations for e6fab7b3-c733-40b9-8df3-2a03e49532c1 within grid-limit is: 9671 and original dataset length is: 4236  
 Number of occurrences = 1450 for this distance 0.000003   
 pct = 34.23
+
+As you can see the distance is actually tiny and this dataset is probably not a gridded one.
+
+Another example is this:
+> Total combinations for dee8edc4-b19a-11e2-886d-00145eb45e9a within grid-limit is: 4484 and original dataset length is: 7176  
+Number of occurrences = 4484 for this distance 0.1000  
+pct = 62.49
+
+The distance here is significant (0.1) and occurs in 62% of the entire dataset whciih makes it a candidate for gridded data!
