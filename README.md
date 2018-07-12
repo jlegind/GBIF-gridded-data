@@ -24,3 +24,8 @@ Number of occurrences = 4484 for this distance 0.1000
 pct = 62.49
 
 The distance here is significant (0.1) and it occurs in 62% of the entire dataset which makes it a candidate for gridded data!
+
+#### Improvements
+* Currently the tool only analyzes latitude values. It should be able to do both.
+* The initial sorting into a new dictionary relies on CPU and memory which will become expensive and slow for any dataset of significant size. For tens of millions of records it could well blow through memory. An implementation that serializes this process is needed.
+* A version of this for R would be welcomed.
