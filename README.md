@@ -29,4 +29,4 @@ The distance here is significant (0.1) and it occurs in 62% of the entire datase
 * Currently the tool only analyzes latitude values. It should be able to do both.
 * The initial sorting into a new dictionary relies on CPU and memory which will become expensive and slow for any dataset of significant size. For tens of millions of records it could well blow through memory. An implementation that serializes this process is needed.
 * A version of this for R would be welcomed.
-* Instead of populating the nested dictionary using Python, perhaps employing Pandas (or in R, the dplyr count() method) might increase performance. This won't solve the memory issue though. (For R it would interesting to explore hash tables for performance gains)
+* Instead of populating the nested dictionary using Python, perhaps employing Pandas (or in R, the dplyr count() method) might increase performance. This won't solve the memory issue though. (For R it would interesting to explore hash tables for performance gains: https://www.r-bloggers.com/hash-table-performance-in-r-part-i/ )
