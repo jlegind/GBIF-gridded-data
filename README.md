@@ -1,7 +1,8 @@
 # GBIF-gridded-data tool
 ### Identifying datasets that have gridded record coordinates or contain a portion of the records that are gridded
 
-This tool shall be able to identify gridded data from a "bag-of-records". This presupposes that the records have a dataset identifier and decimal coordinates. 
+This tool shall be able to identify gridded data from a "bag-of-records". This presupposes that the records have a dataset identifier and decimal coordinates.  
+The most significant distance shall be identified for each dataset group contained within the bag-of-records and the overall share of this distance in the dataset will be evaluated.
 
 The records are sorted by coordinate for each dataset key and sent to a grid_distance function. For the moment, the decimal coordinate distance is calculated between pairs of _latitude coordinates_ (until a distance limit is reached). The distance is emitted to a dictionary as the key and the number of times that distance appears under that datasetkey becomes the value.  
 
